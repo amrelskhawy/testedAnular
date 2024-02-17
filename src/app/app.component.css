@@ -1,0 +1,16 @@
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    padding: 15px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+}
+
+.cards-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
